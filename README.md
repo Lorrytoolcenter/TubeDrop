@@ -24,7 +24,7 @@ A simple and user-friendly desktop application for downloading videos and audio 
 
 The easiest way to use TubeDrop is to download the latest pre-built version.
 
-1.  Go to the [**Releases Page**](https://github.com/your-username/your-repository-name/releases) of this repository.
+1.  Go to the [**Releases Page**](https://lorrytoolcenter.github.io/TubeDrop/#) of this repository.
 2.  Under the latest release, download the `TubeDrop.exe` file (or the appropriate file for your operating system).
 3.  No installation is needed! Just double-click the downloaded file to run the application.
 
