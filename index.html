@@ -116,11 +116,14 @@
         .content-section {
             margin-top: 40px;
         }
-        .screenshot {
-            text-align: center;
+        /* NEW: Styles for the screenshot grid */
+        .screenshot-grid {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
         }
-        .screenshot img {
-            max-width: 100%;
+        .screenshot-grid img {
+            max-width: 48%; /* Each image takes up roughly half the space */
             border-radius: 8px;
             border: 1px solid var(--border-color);
         }
@@ -162,9 +165,16 @@
         }
 
         /* Responsive design for smaller screens */
-        @media (max-width: 600px) {
+        @media (max-width: 700px) {
             .button-container {
                 flex-direction: column;
+            }
+            /* NEW: Stack images on smaller screens */
+            .screenshot-grid {
+                flex-direction: column;
+            }
+            .screenshot-grid img {
+                max-width: 100%; /* Full width on mobile */
             }
         }
     </style>
@@ -191,8 +201,11 @@
                 <p class="download-note" id="download-note"></p>
             </section>
 
-            <section class="content-section screenshot">
-                <img src="https://github.com/Lorrytoolcenter/TubeDrop/blob/master/TubeDrop1.jpg" alt="TubeDrop Application Screenshot">
+            <section class="content-section">
+                <div class="screenshot-grid">
+                    <img src="https://github.com/Lorrytoolcenter/TubeDrop/blob/master/TubeDrop1.jpg?raw=true" alt="TubeDrop Application Screenshot 1">
+                    <img src="https://github.com/Lorrytoolcenter/TubeDrop/blob/master/TubeDrop2.jpg?raw=true" alt="TubeDrop Application Screenshot 2">
+                </div>
             </section>
             
             <section class="content-section">
@@ -275,14 +288,5 @@
             }
         };
     </script>
-
-     <section class="content-section screenshot">
-                <img src="https://github.com/Lorrytoolcenter/TubeDrop/blob/master/TubeDrop2.jpg" alt="TubeDrop Application Screenshot">
-            </section>
-            
-
-
-
-    
 </body>
 </html>
