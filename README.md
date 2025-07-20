@@ -4,7 +4,7 @@ TubeDrop Downloader
 
 A simple and user-friendly desktop application for downloading videos and audio from hundreds of websites, powered by the robust `yt-dlp` library.
 
-![TubeDrop Application Screenshot](https://i.imgur.com/your-screenshot-url.png)
+![TubeDrop Application Screenshot](https://github.com/Lorrytoolcenter/TubeDrop/blob/master/TubeDrop.png)
 *(Recommendation: Replace the link above with a real screenshot of your application. You can upload an image to a site like Imgur to get a link.)*
 
 ---
