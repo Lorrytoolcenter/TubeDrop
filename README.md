@@ -30,15 +30,3 @@ The easiest way to use TubeDrop is to download the latest pre-built version.
 
 ---
 
-## For Developers: Running from Source 🛠️
-
-If you want to run or modify the project from its source code, follow these steps.
-
-**1. Prerequisites:**
-* Python 3.6+
-* FFmpeg (must be in your system's PATH or placed in the `ffmpeg_bundle` folder)
-
-**2. Clone the Repository:**
-```bash
-git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-cd your-repository-name
